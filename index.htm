@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Rising Sea Levels in Bangladesh Map | World101</title>
+<link href="https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css" rel="stylesheet" />
+<script src="https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js"></script> 
+<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js"></script>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.range {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #999;
+    width: 250px;
+}
+.info p {
+    margin: 0;
+}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<input id='range' class='range' type='range' min='0' max='1.0' step='any' />
+<script type="text/javascript" src="js/general-geo-utils.js"></script> 
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
